@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{a694c0f4-cf48-43ba-9308-a21f0054e8e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\uriparser">
+      <UniqueIdentifier>{8804ea4d-bd22-4a90-b004-4429ffbc52a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{c4c52ee8-9aac-4a7d-8b6c-07d5c88273c0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\third_party\uriparser-0.7.5\include\uriparser\Uri.h" />
+    <ClInclude Include="..\third_party\uriparser-0.7.5\include\uriparser\UriBase.h" />
+    <ClInclude Include="..\third_party\uriparser-0.7.5\include\uriparser\UriDefsAnsi.h" />
+    <ClInclude Include="..\third_party\uriparser-0.7.5\include\uriparser\UriDefsConfig.h" />
+    <ClInclude Include="..\third_party\uriparser-0.7.5\include\uriparser\UriDefsUnicode.h" />
+    <ClInclude Include="..\third_party\uriparser-0.7.5\include\uriparser\UriIp4.h" />
+    <ClInclude Include="..\third_party\uriparser-0.7.5\lib\UriCommon.h" />
+    <ClInclude Include="..\third_party\uriparser-0.7.5\lib\UriIp4Base.h" />
+    <ClInclude Include="..\third_party\uriparser-0.7.5\lib\UriNormalizeBase.h" />
+    <ClInclude Include="..\third_party\uriparser-0.7.5\lib\UriParseBase.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\third_party\uriparser-0.7.5\lib\UriCommon.c" />
+    <ClCompile Include="..\third_party\uriparser-0.7.5\lib\UriCompare.c" />
+    <ClCompile Include="..\third_party\uriparser-0.7.5\lib\UriEscape.c" />
+    <ClCompile Include="..\third_party\uriparser-0.7.5\lib\UriFile.c" />
+    <ClCompile Include="..\third_party\uriparser-0.7.5\lib\UriIp4.c" />
+    <ClCompile Include="..\third_party\uriparser-0.7.5\lib\UriIp4Base.c" />
+    <ClCompile Include="..\third_party\uriparser-0.7.5\lib\UriNormalize.c" />
+    <ClCompile Include="..\third_party\uriparser-0.7.5\lib\UriNormalizeBase.c" />
+    <ClCompile Include="..\third_party\uriparser-0.7.5\lib\UriParse.c" />
+    <ClCompile Include="..\third_party\uriparser-0.7.5\lib\UriParseBase.c" />
+    <ClCompile Include="..\third_party\uriparser-0.7.5\lib\UriQuery.c" />
+    <ClCompile Include="..\third_party\uriparser-0.7.5\lib\UriRecompose.c" />
+    <ClCompile Include="..\third_party\uriparser-0.7.5\lib\UriResolve.c" />
+    <ClCompile Include="..\third_party\uriparser-0.7.5\lib\UriShorten.c" />
+  </ItemGroup>
+</Project>
