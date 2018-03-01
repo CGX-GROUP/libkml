@@ -93,9 +93,10 @@ class Xsd {
   // Return the enum string for the given enum id for the given enum element.
   string EnumValue(int type_id, int enum_id) const;
 
+    static Xsd* schema_;
+
  private:
   Xsd();
-  static Xsd* schema_;
 
   tag_id_map_t tag_to_id;
   std::map<int,XsdElement> id_to_string;
